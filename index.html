@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:wght@200;300;400;500;600;700;900&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Dependencies -->
+    <!-- External Styles -->
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/colors.css" />
+
+    <!-- Qr Code Library -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+      integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- External Script -->
+    <script src="./script/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="content">
+        <div class="content-header">
+          <h1 class="headline">QR Code Generator</h1>
+          <p class="normal-text">Enter your URL to generate a QR Code</p>
+        </div>
+        <div class="content-body">
+          <form action="">
+            <input
+              type="text"
+              name="linkname"
+              id="linkName"
+              class="normal-text"
+              placeholder="Enter a URL"
+            />
+            <select name="size" id="qrsize" class="normal-text">
+              <option value="100">100x100</option>
+              <option value="300" selected>300x300</option>
+              <option value="500">500x500</option>
+            </select>
+            <button type="submit" id="generateBtn" class="normal-text">
+              Generate
+            </button>
+          </form>
+        </div>
+      </section>
+      <section id="generated" class="display">
+        <div class="display-wrapper"></div>
+        <div class="display-text lead">Your QR will appear here</div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+:root {
+  --black-100: #07070a;
+  --black-90: #0a0903;
+  --black-80: #011627;
+  --black-70: #1d201f;
+  --black-60: #1e1a1d;
+  --black-50: #172121;
+  --black-40: #1e212b;
+
+  --white-100: #ffffff;
+  --white-30: #d1dede;
+  --white-10: #e4d9ff;
+
+  --blue-gray: #30343f;
+
+  --vanilla: #f2f3ae;
+
+  --intense-orange: #fb5012;
+  --soft-orange: #dd6e42;
+  --orange-80: #ff8200;
+  --carrot: #f18f01;
+
+  --yellow-20: #ffc100;
+
+  --aquamarine: #03fcba;
+  --electric-blue: #87f5fb;
+  --cyan: #01fdf6;
+  --lightblue: #99e1d9;
+  --sof-lightblue: #3e78b2;
+  --soft-blue: #70abaf;
+  --blue-80: #2b4570;
+  --blue-90: #273469;
+  --blue-50: #275dad;
+  --galaxy-blue-80: #020122;
+  --galaxy-blue-70: #17183b;
+  --galaxy-blue-20: #1e2749;
+  --galaxy-blue-violet-100: #0b0033;
+  --galaxy-blue-violet-20: #2f195f;
+
+  --navyblue: #2e5266;
+
+  --violet-100: #370031;
+
+  --soft-red: #ed6a5e;
+  --intense-red: #ff101f;
+  --red-100: #ff0000;
+  --red-50: #ff0035;
+  --red-40: #ff0022;
+
+  --midnight-green: #023436;
+  --forest-green-100: #012622;
+  --forest-green-90: #003b36;
+  --forest-green-80: #223127;
+  --forest-green-70: #2a4747;
+  --forest-green-50: #3b5249;
+  --soft-green: #439775;
+  --green-60: #306b34;
+  --green-40: #61d095;
+  --green-10: #48bf84;
+
+  --brown-100: #43281c;
+  --brown-30: #48392a;
+  --brewed: #392a16;
+}
